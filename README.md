@@ -35,8 +35,7 @@ the open as you would be anyway.
   and confidentiality
 * Integrity checks & reproducible builds
 
-## Workshops
-
+## Workshop: Easy Mode
 ### Tails
 Getting started with, setting up and using [Tails](https://tails.boum.org/), a
 Linux distribution aimed at maintaining your privacy. This workshop will teach
@@ -46,6 +45,7 @@ with your desktop or laptop.
 ### Off-the-Record Messaging
 [Signal](https://signal.org)
 
+## Workshop: Hard Mode
 ### Gnuk
 [Gnuk](https://github.com/vizv/gnuk)
 [Dan Drown - Gnuk Open Source Key Storage](http://blog.dan.drown.org/gnuk-open-source-gpg-ssh-hardware-key-storage/)

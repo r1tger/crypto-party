@@ -1,0 +1,69 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{metropolis}
+
+\usepackage[english]{babel}
+
+\usepackage[scale=2]{ccicons}
+\usepackage[framemethod=tikz]{mdframed}
+
+\usepackage{graphicx}
+
+\definecolor{titleframecolor}{HTML}{23373B}
+\definecolor{titlebackgroundcolor}{HTML}{FAFAFA}
+
+%Information to be included in the title page:
+\title{Crypto Party}
+\subtitle{Ain't no party like a Crypto Party!}
+\author{R. Teunissen (ritger@hack42.nl)}
+\institute{OpenLabs, Tirana \& Hack42, Arnhem}
+\date{\today}
+%\setbeamertemplate{frame footer}{\today}
+%\setbeameroption{show notes}
+%\setbeameroption{show notes on second screen}
+
+\newmdenv[tikzsetting={draw=titleframecolor,fill=titlebackgroundcolor,fill opacity=0.8, line width=1pt},
+      backgroundcolor=none,leftmargin=0,rightmargin=0,innertopmargin=7pt]
+      {titlebox}
+
+\begin{document}
+    \maketitle
+
+    \begin{frame}{Table of Contents}
+        \setbeamertemplate{section in toc}[sections numbered]
+        \tableofcontents[hideallsubsections]
+    \end{frame}
+
+    \section{I've nothing to hide~\ldots}
+
+    {%
+    %\usebackgroundtemplate{\includegraphics[height=\paperheight]{images/01_good_news.jpg}}
+    \begin{frame}{Title}
+        \begin{titlebox}
+            \centering
+            {Something smart}
+        \end{titlebox}
+    \end{frame}
+    }
+
+    \begin{frame}{References}
+        Some references \cite{knuth92}
+    \end{frame}
+
+    \begin{frame}{License}
+        Learn more \& get the source of this presentation from:
+        \begin{center}\url{github.com/r1tger/crypto-party}\end{center}
+        Licensed under \href{http://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons Attribution-ShareAlike 4.0}.
+        \begin{center}\ccbysa\end{center}
+    \end{frame}
+
+    \begin{frame}[standout]
+        Questions?
+    \end{frame}
+
+    \appendix
+
+    \begin{frame}[t,allowframebreaks]{References}
+        \bibliography{crypto-party}
+        \bibliographystyle{abbrv}
+    \end{frame}
+\end{document}
