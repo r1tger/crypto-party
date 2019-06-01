@@ -36,16 +36,16 @@ the open as you would be anyway.
 * Integrity checks & reproducible builds
 
 ## Workshop: Easy Mode
+### Off-the-Record Messaging
+[Signal](https://signal.org)
+
+## Workshop: Hard Mode
 ### Tails
 Getting started with, setting up and using [Tails](https://tails.boum.org/), a
 Linux distribution aimed at maintaining your privacy. This workshop will teach
 you how to **securely** create your own bootable USB drive and how to use it
 with your desktop or laptop.
 
-### Off-the-Record Messaging
-[Signal](https://signal.org)
-
-## Workshop: Hard Mode
 ### Gnuk
 [Gnuk](https://github.com/vizv/gnuk)
 [Dan Drown - Gnuk Open Source Key Storage](http://blog.dan.drown.org/gnuk-open-source-gpg-ssh-hardware-key-storage/)
